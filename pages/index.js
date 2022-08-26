@@ -49,7 +49,7 @@ export async function getStaticProps() { //nextjs generates props on get request
                 id: meetup._id.toString(),
             })),
         },
-        revalidate: 3600, //regeneration server side generated html content every hour
+        revalidate: 1, //regeneration server side generated html content every hour
     };
 };
 
