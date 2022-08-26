@@ -14,6 +14,7 @@ const MeetupDetails = props => {
                 title={props.meetupData.title}
                 address={props.meetupData.address}
                 description={props.meetupData.description}
+                _id={props.meetupData._id}
             />
         </Fragment>
     );
